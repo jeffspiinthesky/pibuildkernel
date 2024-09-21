@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cd linux
-KERNEL=kernel
-make bcmrpi_defconfig
+KERNEL=kernel7
+make bcm2709_defconfig
