@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd linux
-KERNEL=kernel7
+KERNEL=kernel71
 make -j6 modules_install
 
 cp /boot/firmware/$KERNEL.img /boot/firmware/$KERNEL-backup.img

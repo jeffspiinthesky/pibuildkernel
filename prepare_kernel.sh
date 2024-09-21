@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cd linux
-KERNEL=kernel7
-make bcm2709_defconfig
+KERNEL=kernel71
+make bcm2711_defconfig
