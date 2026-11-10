@@ -11,6 +11,10 @@ Initially, install required dependencies:
 ```
 sudo apt install bc bison flex libssl-dev make git libncurses
 ```
+Use pacman if you are on Archlinux:
+```
+sudo pacman -S bc bison flex openssl make git ncurses
+```
 Then clone the kernel source code from GitHub:
 ```
 git clone --depth=1 https://github.com/raspberrypi/linux
