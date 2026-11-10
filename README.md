@@ -11,7 +11,7 @@ Initially, install required dependencies:
 ```
 sudo apt install bc bison flex libssl-dev make git libncurses
 ```
-Use pacman if you are on Archlinux:
+Use pacman if you are on Archlinux: 
 ```
 sudo pacman -S bc bison flex openssl make git ncurses
 ```
